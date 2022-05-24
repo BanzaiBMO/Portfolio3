@@ -1,0 +1,68 @@
+h1{
+	color:rgba(230,29,32,1.00);
+	font-weight: 1000;
+	font-size: 24px;
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: center;
+}
+
+header{
+	overflow: hidden;
+	postion: fixed;
+	top: 0;
+	width: 100%;
+	background-color:aliceblue;
+	border-style: solid;
+	border-width: thick;
+	border-color:#1DC0E9;
+}
+
+a {
+	color: rgba(230,190,20,1.00);
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.container {
+	width: 1280px;
+	margin: auto;
+}
+.navbar{
+	width: 95%;
+	margin: auto;
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-panel{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+@media(max-width : 1922px ){
+	.container{
+		width: 100%;
+	}
+}
+
+
+body {
+	box-sizing: border-box;
+	font-family: "Helvetica";
+	color: white;
+	align-content: center;
+	display: block;
+	align-items: center;
+	background-size: contain;
+	background-image: url('https://images.pexels.com/photos/6745156/pexels-photo-6745156.jpeg');
+}
+
+.panel {
+	background-color: rgba(25,25,25,1.00);
+}
+
